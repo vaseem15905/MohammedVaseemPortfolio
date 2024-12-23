@@ -54,6 +54,8 @@ function Hero() {
           <h1 className='text-[#00ff2f] font-lexend font-bold text-9xl'>Vaseem</h1>
           <h1 className='text-white font-sans font-medium text-3xl mt-9 '>WEB-DEVELOPER</h1>
           <p className='text-white font-sans font-thin text-2xl mt-9 '>Specialized in Building Responsive Web Applications</p>
+          <p className='text-white font-sans font-thin text-2xl mt-9 '>This Website is under Construction/</p>
+
           <div className='flex gap-8 mt-4'>
           <button className='mt-20 p-3 text-[#00ff2f] rounded-md shadow-[0_0_2px_rgb(0,255,47)] border-[#00ff2f] hover:shadow-[0_0_20px_rgb(0,255,47)] hover:scale-110 hover:bg-[#00ff2f] hover:text-black transition-all'>Hire Me!</button>
           <button className='mt-20 p-3 text-[#00ff2f] rounded-md shadow-[0_0_2px_rgb(0,255,47)] border-[#00ff2f] hover:shadow-[0_0_20px_rgb(0,255,47)] hover:scale-110 hover:bg-[#00ff2f] hover:text-black transition-all'>Download Resume</button>
