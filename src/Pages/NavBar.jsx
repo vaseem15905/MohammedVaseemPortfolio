@@ -75,7 +75,7 @@ const NavBar = () => {
 
   return (
     <div
-      className={`fixed z-50 top-4 right-20 bg-transparent transition-transform duration-500 ${
+      className={`fixed z-50 top-4 left-1/2 -translate-x-1/2 bg-transparent transition-transform duration-500 ${
         visible ? 'translate-y-0' : '-translate-y-[200%]'
       }`}
     >

@@ -5,6 +5,8 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],  theme: {
     extend: {
+      backgroundColor: ['autofill'],
+      textColor: ['autofill'],
       fontFamily: {
         lexend: ["Lexend", "sans-serif"],
       },
