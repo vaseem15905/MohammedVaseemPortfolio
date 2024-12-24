@@ -56,7 +56,9 @@ const NavBar = () => {
     { name: 'Home', href: '#home' },
     { name: 'About', href: '#about' },
     { name: 'Skills', href: '#skills' },
+    { name: 'Projects', href: '#projects' },
     { name: 'Contact', href: '#contact' },
+
   ];
 
   const { scrollYProgress } = useScroll();
@@ -75,11 +77,11 @@ const NavBar = () => {
 
   return (
     <div
-      className={`fixed z-50 top-4 left-1/2 -translate-x-1/2 bg-transparent transition-transform duration-500 ${
+      className={`fixed  z-50 top-4 left-1/2 -translate-x-1/2 bg-transparent transition-transform duration-500 ${
         visible ? 'translate-y-0' : '-translate-y-[200%]'
       }`}
     >
-      <div className="mt-2 flex justify-end gap-10 p-4 bg-[#031306c2] shadow-[0_0_1px_rgb(0,255,47)] text-xl text-white font-light backdrop-blur-sm rounded-2xl">
+      <div className="mt-2 flex justify-end gap-8 p-4 bg-[#031306c2] shadow-[0_0_1px_rgb(0,255,47)] text-xs sm:text-xl sm:font-light text-white font-normal backdrop-blur-sm rounded-2xl">
         {navItems.map((item, index) => (
           <a
             key={index}

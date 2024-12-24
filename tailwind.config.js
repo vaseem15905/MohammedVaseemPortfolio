@@ -3,15 +3,16 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
-  ],  theme: {
+  ],
+  theme: {
     extend: {
-      backgroundColor: ['autofill'],
-      textColor: ['autofill'],
       fontFamily: {
         lexend: ["Lexend", "sans-serif"],
+      },
+      boxShadow: {
+        customInner: 'inset 0 0 50px #031306', // Custom inner shadow
       },
     },
   },
   plugins: [],
-}
-
+};
