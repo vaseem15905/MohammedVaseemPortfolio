@@ -85,9 +85,9 @@ function Hero() {
 
       {/* Hero Content */}
       <div className="z-10 mt-6 sm:mt-16">
-        <h1 className="text-white font-lexend ml-2 font-extralight text-4xl sm:text-5xl">Hi, I'm</h1>
-        <h1 className="text-white font-lexend font-bold text-6xl sm:text-8xl lg:text-9xl">Mohammed</h1>
-        <h1 className="text-[#00ff2f] font-lexend font-bold text-6xl sm:text-8xl lg:text-9xl">Vaseem</h1>
+        <h1 className="text-white font-lexend ml-1 font-extralight text-4xl sm:text-5xl">Hi, I'm</h1>
+        <h1 className="text-white font-lexend font-bold text-5xl sm:text-8xl lg:text-9xl">Mohammed</h1>
+        <h1 className="text-[#00ff2f] font-lexend font-bold text-5xl sm:text-8xl lg:text-9xl">Vaseem</h1>
         <h2 className="text-white font-sans font-medium text-lg sm:text-3xl mt-4">WEB DEVELOPER</h2>
         <p className="text-[#00ff2f] font-sans font-thin text-base sm:text-2xl mt-4">
           Specialized in Building Responsive Web Applications
