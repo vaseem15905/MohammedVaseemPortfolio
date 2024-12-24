@@ -57,12 +57,13 @@ const LeftCard = ({ title, sub, ri }) => {
 const Skills = () => {
   return (
     <section id='skills'>
+      
       <div className="container lg:pt-11">
         <div className="text-center">
           <div
             data-aos='zoom-in'
             data-aos-duration='1000'
-            className="font-[800] text-[1.5rem] sm:text-[1.9rem] md:text-[2.5rem] text-[#00ff2f] hover:text-light-for-light"
+            className="font-[800] font-lexend text-center mb-10 text-[1.5rem] sm:text-[1.9rem] md:text-[3.5rem] text-[#00ff2f] hover:text-light-for-light"
           >
             Areas Of Expertise
           </div>
