@@ -72,7 +72,6 @@
 import React from 'react';
 import myImg from '../Assets/myImg.png';
 import CursorEffect from '../Components/CursorEffect';
-import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 function Hero() {
   return (
