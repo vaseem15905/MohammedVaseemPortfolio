@@ -226,7 +226,7 @@ import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 
 // Imported images (replace with actual paths if necessary)
 import CuriousBees from '../Assets/CuriousBees.jpg';
-import BioWhizz from '../Assets/BioWhizz.png';
+import biowhizz from '../Assets/biowhizz.png';
 import MindWhizz from '../Assets/MindWhizz.png';
 import EventManagement from '../Assets/EventManagement.png';
 
@@ -256,7 +256,7 @@ const Projects = () => {
       title: "BioWhizz",
       description: "An AI-powered biogas production system for real-time monitoring and anomaly detection, featuring a chatbot and dashboard for user-friendly control. It ensures efficient gas production, excess biogas collection, and home delivery of nutrient kits based on sensor data.",
       tech: "ESP8266, Firebase, Cloudflare, LLM Chatbot, Python, React",
-      image: BioWhizz,
+      image: biowhizz,
       width: 600,
       height: 400,
     },
