@@ -309,7 +309,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <div className="bg-[#001403] min-h-screen flex flex-col items-center justify-start p-0">
+    <div id="projects" className="bg-[#001403] min-h-screen flex flex-col items-center justify-start p-0">
       <h1 className="text-[#00ff2f] text-4xl sm:text-5xl md:text-6xl font-bold mt-8 mb-12 font-lexend text-center">Our Projects</h1>
       <div className="relative w-full max-w-7xl px-4">
         {/* Left Arrow Button */}
